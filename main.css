@@ -70,4 +70,11 @@ body {
     .carousel-item img {
         height: 280px;
     }
+    
+}
+
+@media (max-width: 991px) {
+    #subtitle {
+        display: none;
+    }
 }
