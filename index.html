@@ -12,14 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/build/styles/main.css">
     <title>CCK - Carioca de Kart</title>
 </head>
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title fw-bold">CCK</h1>
-            <span id="subtitle">| CARIOCA DE KART</span>
+            <img src="source/images/logos/logo_cck.png" id="logo-cck" />
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,13 +57,13 @@
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="/slide-imgs/kart1.jpg" id="kart1" alt="Banner Tony Kart">
+                        <img src="source/images/slide-imgs/kart1.jpg" id="kart1" alt="Banner Tony Kart">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="/slide-imgs/kart2.jpg" alt="Kart verde">
+                        <img src="source/images/slide-imgs/kart2.jpg" alt="Kart verde">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="/slide-imgs/kart3.jpg" alt="Grid categoria sprinter lotado">
+                        <img src="source/images/slide-imgs/kart3.jpg" alt="Grid categoria sprinter lotado">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -83,7 +82,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <img class="d-block w-100 rounded" src="/kart/podium.jpg" alt="Campeão categoria F4 júnior">
+                            <img class="d-block w-100 rounded" src="source/images/kart/podium.jpg" alt="Campeão categoria F4 júnior">
                         </div>
                         <div class="col-md-7 mt-3 mt-md-0">
                             <h2 class="section-title">Sobre o <span class="text-colored">campeonato</span></h2>
@@ -111,7 +110,7 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col-md-4">
-                        <img class="mb-2 d-block w-100 rounded" src="/kart/rental.jpg" alt="">
+                        <img class="mb-2 d-block w-100 rounded" src="source/images/kart/rental.jpg" alt="">
                         <h3 class="section-title text-colored fs-4 text-center">
                             Rental
                         </h3>
@@ -120,7 +119,7 @@
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <img class="mb-2 d-block w-100 rounded" src="/kart/f4.jpg" alt="">
+                        <img class="mb-2 d-block w-100 rounded" src="source/images/kart/f4.jpg" alt="">
                         <h3 class="section-title text-colored fs-4 text-center">
                             F4 Graduados e Novatos
                         </h3>
@@ -129,9 +128,36 @@
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <img class="mb-2 d-block w-100 rounded" src="/kart/cadete.jpg" alt="">
+                        <img class="mb-2 d-block w-100 rounded" src="source/images/kart/cadete.jpg" alt="">
                         <h3 class="section-title text-colored fs-4 text-center">
                             Cadete e Mirim
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum voluptatum nemo natus, cupiditate eligendi impedit ut magnam fugit hic et ad dignissimos asperiores mollitia temporibus rem illo at dolores earum.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="mb-2 d-block w-100 rounded" src="source/images/kart/cadete.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            Junior, Sprinter e Sênior
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum voluptatum nemo natus, cupiditate eligendi impedit ut magnam fugit hic et ad dignissimos asperiores mollitia temporibus rem illo at dolores earum.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="mb-2 d-block w-100 rounded" src="source/images/kart/cadete.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            F4 Sênior
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum voluptatum nemo natus, cupiditate eligendi impedit ut magnam fugit hic et ad dignissimos asperiores mollitia temporibus rem illo at dolores earum.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="mb-2 d-block w-100 rounded" src="source/images/kart/cadete.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4 text-center">
+                            V4 AM e PRO
                         </h3>
                         <p>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum voluptatum nemo natus, cupiditate eligendi impedit ut magnam fugit hic et ad dignissimos asperiores mollitia temporibus rem illo at dolores earum.
@@ -160,42 +186,42 @@
                             <div class="tab-pane active" id="chassis">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/chassis/bravar.png" alt="Bravar"/>
+                                        <img class="d-block w-100" src="source/images/chassis/bravar.png" alt="Bravar"/>
                                         <h5 class="text-colored fw-bold mt-2">Bravar</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/chassis/mini.jpg" alt="Mini"/>
+                                        <img class="d-block w-100" src="source/images/chassis/mini.jpg" alt="Mini"/>
                                         <h5 class="text-colored fw-bold mt-2">Mini</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/chassis/tony.jpg" alt="Tony Kart"/>
+                                        <img class="d-block w-100" src="source/images/chassis/tony.jpg" alt="Tony Kart"/>
                                         <h5 class="text-colored fw-bold mt-2">Tony Kart</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/chassis/thunder.png" alt="Thunder"/>
+                                        <img class="d-block w-100" src="source/images/chassis/thunder.png" alt="Thunder"/>
                                         <h5 class="text-colored fw-bold mt-2">Thunder</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/chassis/mega.jpg" alt="Mega"/>
+                                        <img class="d-block w-100" src="source/images/chassis/mega.jpg" alt="Mega"/>
                                         <h5 class="text-colored fw-bold mt-2">Mega</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/chassis/org.jpg" alt="ORG"/>
+                                        <img class="d-block w-100" src="source/images/chassis/org.jpg" alt="ORG"/>
                                         <h5 class="text-colored fw-bold mt-2">ORG</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -206,21 +232,21 @@
                             <div class="tab-pane" id="pneus">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/tires/red.jpg" alt="Vermelho"/>
+                                        <img class="d-block w-100" src="source/images/tires/red.jpg" alt="Vermelho"/>
                                         <h5 class="text-colored fw-bold mt-2">Vermelho</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/tires/orange.jpg" alt="Laranja"/>
+                                        <img class="d-block w-100" src="source/images/tires/orange.jpg" alt="Laranja"/>
                                         <h5 class="text-colored fw-bold mt-2">Laranja</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/tires/blue.png" alt="Azul"/>
+                                        <img class="d-block w-100" src="source/images/tires/blue.png" alt="Azul"/>
                                         <h5 class="text-colored fw-bold mt-2">Azul</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -231,28 +257,28 @@
                             <div class="tab-pane" id="patrocinadores">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/patrocinadores/ts.png" alt="TS"/>
+                                        <img class="d-block w-100" src="source/images/patrocinadores/ts.png" alt="TS"/>
                                         <h5 class="text-colored fw-bold mt-2">TS Sports</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/patrocinadores/veloz.png" alt="Veloz"/>
+                                        <img class="d-block w-100" src="source/images/patrocinadores/veloz.png" alt="Veloz"/>
                                         <h5 class="text-colored fw-bold mt-2">Veloz</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/patrocinadores/kig.png" alt="KIG"/>
+                                        <img class="d-block w-100" src="source/images/patrocinadores/kig.png" alt="KIG"/>
                                         <h5 class="text-colored fw-bold mt-2">KIG</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="/patrocinadores/kartmotor.jpg" alt="Kart Motor"/>
+                                        <img class="d-block w-100" src="source/images/patrocinadores/kartmotor.jpg" alt="Kart Motor"/>
                                         <h5 class="text-colored fw-bold mt-2">Kart Motor</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -260,12 +286,76 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                        </div>
-                        
+                        </div>             
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="acordion" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Principais dúvidas</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Sobre as inscrições
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        Processo de filiação (FAERJ)
+                                    </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        Acesso ao regulamento
+                                    </button>
+                                </h2>
+                                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        Categoria rental
+                                    </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="cards" class="pt-5 pb-5">
+                <div class="container">
+                    
+                </div>
+            </section>
         </section>
         <section id="fale-conosco" class="pt-5 pb-5">
             <div class="container">
@@ -333,5 +423,8 @@
         </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="/source/scripts/jquery.mask.min.js"></script>
+    <script src="/source/scripts/main.js"></script>
 </body>
 </html>
