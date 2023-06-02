@@ -1,0 +1,1 @@
+$(ಠ_ಠ221).ready(function(){console.log("mask funcional"),$("#telefone").mask("(00) 00000-0000")});
